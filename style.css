@@ -1,80 +1,48 @@
-
 body {
-  margin: 0;
+  background-color: #111;
+  color: #fff;
   font-family: Arial, sans-serif;
-  background: #111;
-  color: #fff;
-}
-header {
-  background: #000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-}
-.logo {
-  height: 60px;
-}
-nav a {
-  color: #fff;
-  margin-left: 20px;
-  text-decoration: none;
-}
-.hero {
-  text-align: center;
-  padding: 40px 20px;
-}
-.hero h1 {
-  font-size: 28px;
-  margin-bottom: 20px;
-}
-.manequins {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-model-viewer {
-  width: 250px;
-  height: 400px;
-}
-.produtos {
-  padding: 40px 20px;
-  text-align: center;
-}
-.produto-lista {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-.produto {
-  background: #222;
-  padding: 15px;
-  border-radius: 10px;
-  width: 200px;
-}
-.produto img {
-  width: 100%;
-  border-radius: 5px;
-}
-.produto h3 {
-  margin: 10px 0 5px;
-}
-.produto p {
-  color: #00eaff;
-  margin: 5px 0;
-}
-.produto button {
-  background: #00eaff;
-  color: #000;
-  border: none;
-  padding: 8px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-footer {
-  background: #000;
   text-align: center;
   padding: 20px;
+}
+
+header h1 {
+  color: #b84dff;
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+header p {
+  color: #ccc;
+  font-size: 1.2em;
+}
+
+h2 {
+  color: #b84dff;
+}
+
+section {
+  margin-top: 30px;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  background-color: #b84dff;
+  color: #fff;
+  padding: 12px 25px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.whatsapp-button:hover {
+  background-color: #a03de0;
+}
+
+footer {
+  margin-top: 50px;
   font-size: 14px;
+  color: #aaa;
 }
