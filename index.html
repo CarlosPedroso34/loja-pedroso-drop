@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedroso Drop</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Pedroso Drop" class="logo" />
+    <nav>
+      <a href="#">Home</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Monte seu Estilo com a Pedroso Drop</h1>
+    <div class="manequins">
+      <model-viewer src="https://models.readyplayer.me/68538febfee837da284a83d1.glb" alt="Manequim Feminino" auto-rotate camera-controls ar></model-viewer>
+      <model-viewer src="https://models.readyplayer.me/65d958b8d872c293ba46c4a7.glb" alt="Manequim Masculino" auto-rotate camera-controls ar></model-viewer>
+    </div>
+  </section>
+
+  <section class="produtos" id="produtos">
+    <h2>Produtos em Destaque</h2>
+    <div class="produto-lista">
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x200?text=Conjunto+Ursinho" alt="Conjunto Ursinho" />
+        <h3>Conjunto Ursinho Azul</h3>
+        <p>R$ 69,90</p>
+        <button>Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x200?text=Camisa+Pedroso" alt="Camisa Pedroso" />
+        <h3>Camisa Pedroso</h3>
+        <p>R$ 59,90</p>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Pedroso Drop - Todos os direitos reservados.</p>
+    <p>Contato: WhatsApp e Instagram</p>
+  </footer>
+</body>
+</html>

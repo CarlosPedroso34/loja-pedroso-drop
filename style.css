@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+}
+header {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.logo {
+  height: 60px;
+}
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+.hero h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.manequins {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+model-viewer {
+  width: 250px;
+  height: 400px;
+}
+.produtos {
+  padding: 40px 20px;
+  text-align: center;
+}
+.produto-lista {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.produto {
+  background: #222;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+.produto img {
+  width: 100%;
+  border-radius: 5px;
+}
+.produto h3 {
+  margin: 10px 0 5px;
+}
+.produto p {
+  color: #00eaff;
+  margin: 5px 0;
+}
+.produto button {
+  background: #00eaff;
+  color: #000;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
