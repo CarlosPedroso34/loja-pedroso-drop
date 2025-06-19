@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produtos - Pedroso Drop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+    }
+    .carrossel-container {
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 20px;
+    }
+    .produto {
+      display: inline-block;
+      background: #222;
+      margin-right: 15px;
+      width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      vertical-align: top;
+    }
+    .produto img {
+      width: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .produto-info {
+      padding: 10px;
+      text-align: center;
+    }
+    .produto-info h2 {
+      font-size: 16px;
+      margin: 10px 0;
+      color: #fff;
+    }
+    .produto-info p {
+      font-weight: bold;
+      color: #00eaff;
+      margin: 5px 0;
+    }
+    .produto-info button {
+      background: #00eaff;
+      color: #000;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .produto-info button:hover {
+      background: #00bcd4;
+    }
+  </style>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <h1>Produtos em Destaque</h1>
+  <div class="carrossel-container">
+    <div class="produto">
+      <img src="https://chat.openai.com/share/file-QpdhEHDrVqPyMaFKQGb9a8" alt="Conjunto Ursinho Azul">
+      <div class="produto-info">
+        <h2>Conjunto Ursinho Azul</h2>
+        <p>R$ 69,90</p>
+        <button>Comprar</button>
+      </div>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/200x200?text=Produto+2" alt="Produto 2">
+      <div class="produto-info">
+        <h2>Camisa Pedroso</h2>
+        <p>R$ 59,90</p>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </div>
+
+  <h2 style="text-align: center; margin-top: 40px;">Personagem Feminina</h2>
+  <div style="display: flex; justify-content: center; padding: 20px;">
+    <model-viewer
+      src="https://models.readyplayer.me/68538febfee837da284a83d1.glb"
+      alt="Personagem Feminina"
+      auto-rotate
+      camera-controls
+      ar
+      style="width: 300px; height: 500px;"
+    ></model-viewer>
+  </div>
+</body>
+</html>
