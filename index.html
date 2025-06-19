@@ -2,22 +2,86 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja Pedroso Drop</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pedroso Drop</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Arial', sans-serif; background: #f2f2f2; color: #111; }
+    header { background: #fff; padding: 20px 10%; box-shadow: 0 1px 5px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; }
+    header h1 { font-size: 28px; font-weight: bold; }
+    nav a { margin: 0 15px; color: #111; text-decoration: none; font-size: 16px; }
+    .hero { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 50px 10%; background: #fff; }
+    .model-container { flex: 1 1 300px; max-width: 500px; padding: 20px; }
+    model-viewer { width: 100%; height: 500px; border-radius: 10px; background: #eaeaea; }
+    .info { flex: 1 1 300px; padding: 20px; }
+    .info h2 { font-size: 48px; margin-bottom: 20px; }
+    .info p { font-size: 16px; margin-bottom: 20px; }
+    .buttons { display: flex; gap: 10px; }
+    button { padding: 12px 20px; font-size: 16px; border: none; cursor: pointer; border-radius: 5px; }
+    .cart { background-color: #111; color: #fff; }
+    .watch { background-color: #ccc; color: #000; }
+    .grid-section { display: flex; flex-wrap: wrap; gap: 20px; padding: 40px 10%; background: #f9f9f9; justify-content: center; }
+    .grid-item { flex: 1 1 280px; background: #fff; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+    .grid-item h3 { margin: 15px 0 10px; font-size: 20px; }
+    .footer { text-align: center; padding: 20px; background: #fff; font-size: 14px; }
+  </style>
 </head>
 <body>
-    <h1>Bem-vindo à Pedroso Drop</h1>
+  <header>
+    <h1>Pedroso Drop</h1>
+    <nav>
+      <a href="#">Produtos</a>
+      <a href="#">História</a>
+      <a href="#">Fabricação</a>
+      <a href="#">Envio</a>
+    </nav>
+  </header>
 
-    <div class="manequins-container">
-        <div class="manequim" id="manequim1">Manequim 1 Aqui</div>
-        <div class="manequim" id="manequim2">Manequim 2 Aqui</div>
+  <section class="hero">
+    <div class="model-container">
+      <model-viewer src="https://models.readyplayer.me/6853765231528952f316ed3d.glb" alt="Manequim Masculino" auto-rotate camera-controls></model-viewer>
     </div>
+    <div class="info">
+      <h2>Hoodie Streetwear</h2>
+      <p>Nosso modelo masculino veste o novo hoodie ecológico Pedroso Drop. Conforto, estilo e impacto positivo no mundo.</p>
+      <div class="buttons">
+        <button class="cart" onclick="alert('Produto adicionado ao carrinho!')">Adicionar ao Carrinho</button>
+        <button class="watch" onclick="alert('Mais informações em breve')">Ver Info</button>
+      </div>
+    </div>
+  </section>
 
-    <h2>Catálogo de Produtos</h2>
-    <div id="catalogo"></div>
+  <section class="hero">
+    <div class="model-container">
+      <model-viewer src="https://models.readyplayer.me/68538febfee837da284a83d1.glb" alt="Manequim Feminino" auto-rotate camera-controls></model-viewer>
+    </div>
+    <div class="info">
+      <h2>Look Feminino</h2>
+      <p>Estilo urbano com atitude. A linha feminina Pedroso Drop traz personalidade com conforto e propósito.</p>
+      <div class="buttons">
+        <button class="cart" onclick="alert('Produto adicionado ao carrinho!')">Adicionar ao Carrinho</button>
+        <button class="watch" onclick="alert('Mais informações em breve')">Ver Info</button>
+      </div>
+    </div>
+  </section>
 
-    <script src="catalogo.js"></script>
+  <section class="grid-section">
+    <div class="grid-item">
+      <img src="https://via.placeholder.com/200x200.png?text=New+Arrivals" alt="New Arrivals">
+      <h3>New Arrivals</h3>
+      <p>Explore os lançamentos mais recentes com design urbano e material sustentável.</p>
+    </div>
+    <div class="grid-item">
+      <img src="https://via.placeholder.com/200x200.png?text=Accessories" alt="Accessories">
+      <h3>Accessories</h3>
+      <p>Conheça mochilas, bonés e muito mais para complementar seu estilo.</p>
+    </div>
+  </section>
+
+  <div class="footer">
+    © 2025 Pedroso Drop - Todos os direitos reservados.
+  </div>
 </body>
 </html>
