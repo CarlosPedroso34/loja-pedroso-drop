@@ -1,0 +1,24 @@
+
+[
+  {
+    "titulo": "Camiseta Preta Slim",
+    "categoria": "Camisas",
+    "preco": 79.90,
+    "imagem": "imagens/camiseta-preta.jpg",
+    "descricao": "Camiseta preta em tecido premium, modelagem slim fit."
+  },
+  {
+    "titulo": "Calça Cargo Verde",
+    "categoria": "Calças",
+    "preco": 149.90,
+    "imagem": "imagens/calca-cargo.jpg",
+    "descricao": "Calça cargo com bolsos laterais e ajuste na cintura."
+  },
+  {
+    "titulo": "Tênis Branco Street",
+    "categoria": "Calçados",
+    "preco": 199.90,
+    "imagem": "imagens/tenis-branco.jpg",
+    "descricao": "Tênis branco com design moderno, ideal para o dia a dia."
+  }
+]
