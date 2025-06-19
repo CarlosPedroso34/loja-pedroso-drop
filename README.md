@@ -1,11 +1,11 @@
-# Pedroso Drop - Nova Versão (Preto + Roxo + WhatsApp)
+# Pedroso Drop - Site Inicial
 
-Site com visual street preto e roxo, personagem 3D interativo e botão de WhatsApp.
+Este é o site básico da loja Pedroso Drop. Contém um modelo 3D interativo usando model-viewer.
 
 ## Como usar:
 
-1. Suba esses arquivos no seu repositório do GitHub.
-2. A Vercel faz o deploy automático.
+1. Suba esses arquivos no seu repositório GitHub.
+2. Faça o deploy no Vercel.
 3. Pronto!
 
-By Kaos3000 🚀
+Kadu3000 🚀
